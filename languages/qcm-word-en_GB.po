@@ -1,0 +1,337 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-08-29 14:32+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. Plugin Name of the plugin
+#: C:\wamp64\www\wordpress-6.5.2\wp-content\plugins\qcm-word\qcm-word.php
+msgid "QCM WORD"
+msgstr ""
+
+#. Description of the plugin
+#: C:\wamp64\www\wordpress-6.5.2\wp-content\plugins\qcm-word\qcm-word.php
+msgid "Créez facilement votre QCM !"
+msgstr "Easily create your quiz!"
+
+#. Author of the plugin
+#: C:\wamp64\www\wordpress-6.5.2\wp-content\plugins\qcm-word\qcm-word.php
+msgid "Abdelmalik Bouyachfar"
+msgstr ""
+
+#: src/controller/Admin/AdminController.php:22
+msgid "Thèmes"
+msgstr "Themes"
+
+#: src/controller/Admin/AdminController.php:23
+#: src/controller/Admin/ReportController.php:17 views/admin/report.php:7
+msgid "Rapports"
+msgstr "Reports"
+
+#: src/controller/Admin/AdminController.php:24 views/admin/dashboard.php:8
+msgid "Tableau de bord"
+msgstr "Dashboard"
+
+#: src/controller/Admin/AdminController.php:31
+msgid "Nbr de rapport"
+msgstr "Number of report"
+
+#: src/controller/Admin/QuestionController.php:20
+msgid "Informations"
+msgstr "Informations"
+
+#: src/controller/Admin/QuestionController.php:21
+#: views/admin/report_detail.php:109
+msgid "Réponses"
+msgstr "Answers"
+
+#: src/controller/Admin/QuestionController.php:27 views/admin/response.php:15
+msgid "Réponse"
+msgstr "Answer"
+
+#: src/controller/Admin/QuestionController.php:28 views/admin/response.php:22
+msgid "Type du champ"
+msgstr "Field Type"
+
+#: src/controller/Admin/QuestionController.php:29 views/admin/response.php:30
+#: views/admin/response.php:36 views/admin/response.php:42
+#: views/admin/response.php:48
+msgid "Case à cocher"
+msgstr "Checkbox"
+
+#: src/controller/Admin/QuestionController.php:30 views/admin/response.php:31
+#: views/admin/response.php:37 views/admin/response.php:43
+#: views/admin/response.php:49 views/admin/response.php:60
+msgid "Texte"
+msgstr "Text"
+
+#: src/controller/Admin/QuestionController.php:31 views/admin/response.php:32
+#: views/admin/response.php:38 views/admin/response.php:44
+#: views/admin/response.php:50
+msgid "Texte Multilignes"
+msgstr "Multilines Text"
+
+#: src/controller/Admin/QuestionController.php:32 views/admin/response.php:69
+msgid "InfoBulle"
+msgstr "Tooltip"
+
+#: src/controller/Admin/ReportController.php:16
+msgid "Rapport"
+msgstr "Report"
+
+#: src/controller/Admin/ReportController.php:45 views/admin/dashboard.php:94
+#: views/admin/report_detail.php:52 views/front/qcm-page-js.php:30
+msgid "Nom"
+msgstr "Last Name"
+
+#: src/controller/Admin/ReportController.php:46 views/admin/dashboard.php:95
+#: views/admin/report_detail.php:55 views/front/qcm-page-js.php:35
+msgid "Prénom"
+msgstr "First Name"
+
+#: src/controller/Admin/ReportController.php:47
+#: views/admin/report_detail.php:58
+msgid "Email"
+msgstr "Email"
+
+#: src/controller/Admin/ReportController.php:48
+msgid "Téléphone"
+msgstr "Phone"
+
+#: src/controller/Admin/ReportController.php:49
+msgid "Créé le"
+msgstr "Created on"
+
+#: src/controller/Admin/ReportController.php:101
+msgid "Détails"
+msgstr "Details"
+
+#: src/controller/Admin/ReportController.php:109
+msgid "Supprimer"
+msgstr "Delete"
+
+#: src/controller/Admin/ReportController.php:131
+msgid "Aucun enregitrement trouvé!"
+msgstr "No records found!"
+
+#: src/QCMWordPlugin.php:64
+msgid "Le champ Nom est obligatoire!"
+msgstr "The Last Name field is required!"
+
+#: src/QCMWordPlugin.php:65
+msgid "Le champ Prénom est obligatoire!"
+msgstr "The First Name field is required!"
+
+#: src/QCMWordPlugin.php:66
+msgid "Le champ Tél est obligatoire!"
+msgstr "The Phone field is required!"
+
+#: src/QCMWordPlugin.php:67
+msgid "Le champ Email est obligatoire!"
+msgstr "The Email field is required!"
+
+#: src/QCMWordPlugin.php:68
+msgid "Le champ Email est invalide!"
+msgstr "The Email field is invalid!"
+
+#: src/QCMWordPlugin.php:69
+msgid "Le champ Pays est obligatoire!"
+msgstr "The Country field is required!"
+
+#: src/QCMWordPlugin.php:70
+msgid "Le champ Ville est obligatoire!"
+msgstr "The City field is required!"
+
+#: src/QCMWordPlugin.php:71
+msgid "Précédent"
+msgstr "Previous"
+
+#: src/QCMWordPlugin.php:72
+msgid "Suivant"
+msgstr "Next"
+
+#: src/QCMWordPlugin.php:73
+msgid "Merci de saisir ou choisir au moins une réponse!"
+msgstr "Please enter or select at least one answer!"
+
+#: src/QCMWordPlugin.php:74 views/admin/dashboard.php:115
+#: views/admin/question.php:61 views/admin/question.php:66
+#: views/admin/question.php:84 views/admin/question.php:89
+msgid "Oui"
+msgstr "Yes"
+
+#: src/QCMWordPlugin.php:75 views/admin/dashboard.php:115
+#: views/admin/question.php:60 views/admin/question.php:65
+#: views/admin/question.php:83 views/admin/question.php:88
+msgid "Non"
+msgstr "No"
+
+#: src/QCMWordPlugin.php:76
+msgid "Merci de justifier votre réponse"
+msgstr "Please justify your answer"
+
+#: src/QCMWordPlugin.php:77
+msgid "Vos réponses sont enregistrés!"
+msgstr "Your answers have been saved!"
+
+#: src/QCMWordPlugin.php:78
+msgid "Nos équipes vous contacterons le plus tôt possible."
+msgstr "Our teams will contact you as soon as possible."
+
+#: src/QCMWordPlugin.php:79
+msgid "Félicitation"
+msgstr "Congratulations!"
+
+#: src/QCMWordPlugin.php:80
+msgid "Un erreur est survenue! Merci de ressayer plus tard"
+msgstr "An error has occurred! Please try again later."
+
+#: src/QCMWordPlugin.php:81
+msgid "Aucune question trouvées!"
+msgstr "No questions found!"
+
+#: views/admin/dashboard.php:46
+msgid "Stats des Rapports par thème"
+msgstr "Report Stats by Theme"
+
+#: views/admin/dashboard.php:56
+msgid "Stats des Rapports Par Pays"
+msgstr "Report Stats by Country"
+
+#: views/admin/dashboard.php:86
+msgid "Les derniers utilisateurs"
+msgstr "The latest users"
+
+#: views/admin/dashboard.php:87 views/admin/dashboard.php:131
+#: views/admin/dashboard.php:145
+msgid "Voir plus"
+msgstr "See more"
+
+#: views/admin/dashboard.php:96 views/admin/report_detail.php:61
+#: views/front/qcm-page-js.php:40
+msgid "Tél"
+msgstr "Phone"
+
+#: views/admin/dashboard.php:97
+msgid "Adresse mail"
+msgstr "Email Address"
+
+#: views/admin/dashboard.php:98 views/admin/report_detail.php:64
+#: views/front/qcm-page-js.php:50
+msgid "Pays"
+msgstr "Country"
+
+#: views/admin/dashboard.php:99 views/admin/report_detail.php:67
+#: views/front/qcm-page-js.php:55
+msgid "Ville"
+msgstr "City"
+
+#: views/admin/dashboard.php:100
+msgid "Vu"
+msgstr "Seen"
+
+#: views/admin/dashboard.php:101
+msgid "Actions"
+msgstr "Actions"
+
+#: views/admin/dashboard.php:130
+msgid "Nombre de rapports"
+msgstr "Number of reports"
+
+#: views/admin/dashboard.php:136
+msgid "Nombre total de rapports"
+msgstr "Number total of reports"
+
+#: views/admin/dashboard.php:137
+msgid "Rapports non lus"
+msgstr "Unread reports"
+
+#: views/admin/dashboard.php:144
+msgid "Liste des thèmes"
+msgstr "List of themes"
+
+#: views/admin/dashboard.php:156
+msgid "Nombre de questions"
+msgstr "Number od questions"
+
+#: views/admin/question.php:42
+msgid "Ordre"
+msgstr "Order"
+
+#: views/admin/question.php:51
+msgid "Question Directe ?"
+msgstr "Direct Question ?"
+
+#: views/admin/question.php:75
+msgid "Justificatif requis ?"
+msgstr "Proof requiered"
+
+#: views/admin/report_detail.php:8
+msgid "Détails Rapport"
+msgstr "Report details"
+
+#: views/admin/report_detail.php:48
+msgid "Données utilisateur"
+msgstr "User data"
+
+#: views/admin/report_detail.php:70
+msgid "Adresse IP"
+msgstr "IP Address"
+
+#: views/admin/report_detail.php:79
+msgid "Données QCM"
+msgstr "Quiz Data"
+
+#: views/admin/report_detail.php:83
+msgid "Thème"
+msgstr "Theme"
+
+#: views/admin/report_detail.php:86
+msgid "Date rapport"
+msgstr "Report Date"
+
+#: views/admin/report_detail.php:95
+msgid "Question/Réponse"
+msgstr "Question/Answer"
+
+#: views/admin/report_detail.php:105 views/front/question-page.php:12
+#: views/front/question-single.php:14
+msgid "Question"
+msgstr "Question"
+
+#: views/admin/report_detail.php:125
+msgid "Justification"
+msgstr "Proof"
+
+#: views/admin/report_detail.php:133
+msgid "Aucune réponse donnée par l'utilisateur!"
+msgstr "No response given by the user!"
+
+#: views/admin/response.php:84
+msgid "Ajouter une réponse"
+msgstr "Add an answer"
+
+#: views/front/qcm-page-js.php:25
+msgid "Inscription"
+msgstr "Registration"
+
+#: views/front/qcm-page-js.php:45
+msgid "Adresse email"
+msgstr "Email Address"
+
+#: views/front/qcm-page-js.php:64
+msgid "Enregistrer"
+msgstr "Save"

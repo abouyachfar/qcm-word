@@ -1,0 +1,16 @@
+{
+    "name": "alm/qcm-word",
+    "type": "wordpress-plugin",
+    "autoload": {
+        "psr-4": {
+            "Alm\\QcmWord\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "abdelmalik bouyachfar",
+            "email": "abdelmalik.bouyachfar@gmail.com"
+        }
+    ],
+    "require": {}
+}
